@@ -1,0 +1,39 @@
+body{
+    background-image: url(/image/S1e20_Gideon_Rises_.png);
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;;       
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px black;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(192, 157, 128, 0.774);
+    border-radius: 100px;
+    border: 4px solid rgb(102, 86, 59);
+    color: rgb(48, 33, 33);
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    background-color: rgb(92, 60, 56);
+    border: 4px solid rgb(48, 33, 33);
+    border-radius: 100px;
+    
+    
+}
+
+#robby{
+    margin-left: 5px;
+    display: block;
+}
